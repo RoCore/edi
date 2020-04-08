@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ElectronicDataInterchange.Domain\ElectronicDataInterchange.Domain.csproj" />
+    <ProjectReference Include="..\ElectronicDataInterchange.Infrastructure\ElectronicDataInterchange.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
